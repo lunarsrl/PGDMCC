@@ -1,0 +1,78 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2026-08-13 00:10:35
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue --
+Details:
+	Mod file: <No mod information provided>
+	Failure message: File /home/srl/Programming/Minecraft/PGDMCC/build/classes/java/main contains mod entrypoint class dev.lunarsrl.pgdmcc.Pgdmcc for mod with id powergridmoredynamicmotors, which does not exist or is not in the same file.
+		Did you forget to update the mod id in the entrypoint?
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 7.1.7-100.fc43.x86_64
+	Java Version: 21.0.11, Red Hat, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Red Hat, Inc.
+	Memory: 501004952 bytes (477 MiB) / 847249408 bytes (808 MiB) up to 14646509568 bytes (13968 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen AI 9 HX PRO 370 w/ Radeon 890M
+	Identifier: AuthenticAMD Family 26 Model 36 Stepping 0
+	Microarchitecture: unknown
+	Frequency (GHz): 5.16
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: Strix [Radeon 880M / 890M]
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: version: d1
+	Virtual memory max (MiB): 36121.23
+	Virtual memory used (MiB): 14819.13
+	Swap memory total (MiB): 8192.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 27922.29, total: 27929.23
+	Space in storage for workdir (MiB): available: 379895.34, total: 974113.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.43.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.43.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.43.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		architectury-13.0.11-neoforge.jar                 |Architectury                  |architectury                  |13.0.11             |Manifest: NOSIGNATURE
+		cc-tweaked-1.21.1-forge-1.120.0.jar               |CC: Tweaked                   |computercraft                 |1.120.0             |Manifest: NOSIGNATURE
+		create-1.21.1-6.0.10.jar                          |Create                        |create                        |6.0.10              |Manifest: NOSIGNATURE
+		powergrid-mc1.21.1-0.5.5.1.jar                    |Create: Power Grid            |powergrid                     |0.5.5.1             |Manifest: NOSIGNATURE
+		flywheel-neoforge-1.21.1-1.0.4.jar                |Flywheel                      |flywheel                      |1.0.4               |Manifest: NOSIGNATURE
+		neoforge-21.1.248.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.248.jar                             |NeoForge                      |neoforge                      |21.1.248            |Manifest: NOSIGNATURE
+		ponder-neoforge-1.0.82+mc1.21.1.jar               |Ponder                        |ponder                        |1.0.82+mc1.21.1     |Manifest: NOSIGNATURE
+		main                                              |Power Grid: Dynamic Motors w/ |pgdmcc                        |1.0-SNAPSHOT        |Manifest: NOSIGNATURE
+		sable-companion-common-1.21.1-1.5.0.jar           |Sable Companion               |sablecompanion                |1.5.0               |Manifest: NOSIGNATURE

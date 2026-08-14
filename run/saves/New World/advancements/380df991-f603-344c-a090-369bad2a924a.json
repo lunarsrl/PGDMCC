@@ -1,0 +1,111 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-13 00:14:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2026-08-13 00:14:12 -0400"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-08-13 00:14:23 -0400"
+    },
+    "done": true
+  },
+  "powergrid:recipes/misc/crafting/copper_cord": {
+    "criteria": {
+      "has_item": "2026-08-13 00:14:37 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_normal": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printer": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/cable": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_drive": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/speaker": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_normal": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_dan200": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_normal": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-13 00:15:12 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometer_from_conversion": {
+    "criteria": {
+      "has_item": "2026-08-13 00:17:03 -0400"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "1": "2026-08-13 00:17:11 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
