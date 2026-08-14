@@ -68,8 +68,8 @@ public abstract class pgdmccConstantSpeedMotorMixin
     }
 
     /**
-     * @me
-     * @I wanted to
+     * @PGDMCC
+     * @Needed to create a generic interface for speed, and reconnect scroll value to it
      */
     @Overwrite
     public void addBehaviours(List<BlockEntityBehaviour> behaviours) {
@@ -93,8 +93,8 @@ public abstract class pgdmccConstantSpeedMotorMixin
     }
 
     /**
-     * @pgmd
-     * @I wanted to
+     * @PGDMCC
+     * @Needed to replace check for scroll value with a check for the new generic speed interface
      */
     @Overwrite
     public float getGeneratedSpeed() {
@@ -104,8 +104,8 @@ public abstract class pgdmccConstantSpeedMotorMixin
     }
 
     /**
-     * @pgmd
-     * @I wanted to
+     * @PGDMCC
+     * @Needed to replace check for scroll value with a check for the new generic speed interface
      */
     @Overwrite
     public float calculateAddedStressCapacity() {
