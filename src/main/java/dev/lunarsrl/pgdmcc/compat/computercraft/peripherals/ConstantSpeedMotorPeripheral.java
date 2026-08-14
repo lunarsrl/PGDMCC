@@ -26,6 +26,9 @@ public class ConstantSpeedMotorPeripheral implements IPeripheral {
     @LuaFunction(mainThread = true)
     public final boolean setTargetSpeed(double speed) {
         pgdmccConstantSpeedMotorInterface motor1 = (pgdmccConstantSpeedMotorInterface) this.motor;
+        if (speed < 0) {
+            throw new RuntimeException("Cannot be a value less than 0. To reverse rotation, reverse the current instead");
+        }
         motor1.setPgmdTargetSpeed(speed);
         return true;
 
